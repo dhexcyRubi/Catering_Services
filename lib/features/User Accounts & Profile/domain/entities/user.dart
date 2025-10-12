@@ -11,7 +11,7 @@ class User extends Equatable {
   final String? photoUrl;
   final DateTime createdAt;
 
-  const User({
+  User({
     required this.id,
     required this.email,
     this.displayName,
