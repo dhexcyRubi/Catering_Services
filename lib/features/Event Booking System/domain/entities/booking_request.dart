@@ -69,4 +69,8 @@ class BookingRequest extends Equatable {
 
   @override
   List<Object?> get props => [id, clientId, packageId, eventType, eventDateTime, timezone, location, guestCount, selectedAddons, notes, status, price, createdAt];
+
+  static fromJson(json) {}
+
+  toJson() {}
 }
