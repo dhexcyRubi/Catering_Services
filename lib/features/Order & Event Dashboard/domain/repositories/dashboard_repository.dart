@@ -3,7 +3,7 @@ import '../entities/booking_summary.dart';
 import '../entities/booking_detail.dart';
 import '../entities/booking_action.dart';
 import '../entities/audit_log.dart';
-import '../failures/failure.dart';
+import '../../../../core/error/failure.dart';
 
 abstract class DashboardRepository {
   /// List upcoming bookings for admin dashboard with optional filters

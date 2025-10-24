@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../repositories/dashboard_repository.dart';
 import '../entities/booking_summary.dart';
-import '../failures/failure.dart';
+import '../../../../core/error/failure.dart';
 
 class ListUpcomingBookings {
   final DashboardRepository repository;
