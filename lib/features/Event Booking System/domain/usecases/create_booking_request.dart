@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../repositories/booking_repository.dart';
 import '../entities/booking_request.dart';
-import '../failures/failure.dart';
+import '../../../../core/error/failure.dart';
 
 class CreateBookingRequest {
   final BookingRepository repository;

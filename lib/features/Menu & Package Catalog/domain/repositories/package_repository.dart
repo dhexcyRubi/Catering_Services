@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import '../entities/package.dart';
-import '../failures/failure.dart';
+import '../../../../core/error/failure.dart';
 
 abstract class PackageRepository {
   /// Create a new package
